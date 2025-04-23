@@ -15,7 +15,7 @@ public class OperacionesController {
     //3 Saludo
     @GetMapping("/hola")
     public String saludoFijo(){
-        return "Hola Mundo";
+        return "Hola Mundo, My name is";
     }
     //4 Metodo que retorna nombres
     @GetMapping("/mi-nombre")
